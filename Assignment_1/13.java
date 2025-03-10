@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.*;
 
-class S
+class prime
 {
     int primesum(int num)
     {
@@ -31,7 +31,7 @@ class S
         return 0;
     }
 }
-class Q13
+class Prime
 {
     public static void main(String []args){
         int sum=0, x, y;
@@ -41,7 +41,7 @@ class Q13
         System.out.print("Enter the second number: ");
         y=sc.nextInt();
         
-        S obj=new S();
+        prime obj=new prime();
         int X=obj.primesum(x);
         int Y=obj.primesum(y);
         sum=X + Y;
@@ -51,7 +51,7 @@ class Q13
              System.out.println("Sum of two Prime number: "+sum);
         }
         else{
-            System.out.println("Number are not Prime Number");
+            System.out.println("Not Prime Number");
         }
     }
 }
