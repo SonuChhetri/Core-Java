@@ -4,7 +4,7 @@
 import java.io.*;
 import java.util.*;
 
-class A{
+class fibonacci{
 
     void printfibo(int n)
     {
@@ -22,14 +22,14 @@ class A{
         
     }
 }
-public class Q1
+public class fibo
 {
     public static void main(String []args){
         int num;
         Scanner sc= new Scanner(System.in);
-        System.out.print("Enter the number you want to print Fibonacci: ");
+        System.out.print("Enter the number: ");
         num=sc.nextInt();
-        A obj=new A();
+        fibonacci obj=new fibonacci();
         obj.printfibo(num);
     }
 }
