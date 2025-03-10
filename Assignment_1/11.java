@@ -5,11 +5,11 @@ class power_number
 {
 	void power(int a,int b)
 	{
-		System.out.print("The power of that number: "+(int) Math.pow(a,b));   // here use Math.pow Function
+		System.out.print("The power of a number: "+(int) Math.pow(a,b));
 	
 	}
 }
-class Q11
+class power
 {
 	public static void main(String []a)
 	{
