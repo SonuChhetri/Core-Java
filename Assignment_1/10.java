@@ -1,7 +1,7 @@
 // Write a java program to Display Alphabets(A to Z)
 
 
-class Q10{
+class dispalyAlphabet{
     public static void main(String []args){
         char c;
         for(c='A';c<='Z';c++){
