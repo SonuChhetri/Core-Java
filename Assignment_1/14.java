@@ -22,7 +22,7 @@ class N{
             System.out.println(rev+" : This number is not Palindrome Number");
     }
 }
-class Q14
+class palin
 {
     public static void main(String []a){
         Scanner sc=new Scanner(System.in);
