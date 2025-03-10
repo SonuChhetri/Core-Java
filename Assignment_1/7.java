@@ -1,8 +1,8 @@
 import java.io.*;
 import java.util.*;
-class Seq
+class Sequence
 {
-	void sequ(int num){
+	void seq(int num){
 		int i, a=1;
 		for(i=1;i<=num;i++){
 		a*=i;
@@ -12,14 +12,14 @@ class Seq
 	}
 }
 
-class Q7{
+class sequence{
 
 	public static void main(String a[]){
 		int n;
 		Scanner sc= new Scanner(System.in);
-		System.out.print("Enter the number you want to print the sequence:");
+		System.out.print("Enter the number:");
 		n=sc.nextInt();
-		Seq obj=new Seq();
-		obj.sequ(n);
+		Sequence obj=new Sequence();
+		obj.seq(n);
 	}
 }
