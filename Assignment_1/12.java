@@ -11,7 +11,7 @@ class factor
         }
     }
 }
-class Q12
+class FACTORS
 {
     public static void main(String []a)
     {
